@@ -40,16 +40,306 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-10">
-                  <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Secondary card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+              <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h2>Data</h2>
+                            <hr>
+                            <p class="text2">The following table includes a brief glimpse of the data used for plotting during this project. There were over 120,000 wine reviews in the original
+                              dataset. Original data: <a href="https://www.kaggle.com/zynicide/wine-reviews">Kaggle</a>
+                            </p>
+                            <div class="col-md-12">
+                                <table class="table table-hover">
+                                  <thead>
+                                          <tr class="table-primary">
+                                            
+                                            
+                                            <th>country</th>
+                                            <th>description</th>
+                                            <th>designation</th>
+                                            <th>points</th>
+                                            <th>price</th>
+                                            <th>province</th>
+                                            <th>region_1</th>
+                                            <th>region_2</th>
+                                            <th>taster_name</th>
+                                            <th>taster_twitter_handle</th>
+                                            <th>title</th>
+                                            <th>variety</th>
+                                            <th>winery</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            
+                                            
+                                            <td>Portugal</td>
+                                            <td>This is ripe and fruity, a wine that is smooth...</td>
+                                            <td>Avidagos</td>
+                                            <td>87</td>
+                                            <td>15.0</td>
+                                            <td>Douro</td>
+                                            <td>NaN</td>
+                                            <td>NaN</td>
+                                            <td>Roger Voss</td>
+                                            <td>@vossroger</td>
+                                            <td>Quinta dos Avidagos 2011 Avidagos Red (Douro)</td>
+                                            <td>Portuguese Red</td>
+                                            <td>Quinta dos Avidagos</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>US</td>
+                                            <td>Tart and snappy, the flavors of lime flesh and...</td>
+                                            <td>NaN</td>
+                                            <td>87</td>
+                                            <td>14.0</td>
+                                            <td>Oregon</td>
+                                            <td>Willamette Valley</td>
+                                            <td>Willamette Valley</td>
+                                            <td>Paul Gregutt</td>
+                                            <td>@paulgwine</td>
+                                            <td>Rainstorm 2013 Pinot Gris (Willamette Valley)</td>
+                                            <td>Pinot Gris</td>
+                                            <td>Rainstorm</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>US</td>
+                                            <td>Pineapple rind, lemon pith and orange blossom ...</td>
+                                            <td>Reserve Late Harvest</td>
+                                            <td>87</td>
+                                            <td>13.0</td>
+                                            <td>Michigan</td>
+                                            <td>Lake Michigan Shore</td>
+                                            <td>NaN</td>
+                                            <td>Alexander Peartree</td>
+                                            <td>NaN</td>
+                                            <td>St. Julian 2013 Reserve Late Harvest Riesling ...</td>
+                                            <td>Riesling</td>
+                                            <td>St. Julian</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>US</td>
+                                            <td>Much like the regular bottling from 2012, this...</td>
+                                            <td>Vintner's Reserve Wild Child Block</td>
+                                            <td>87</td>
+                                            <td>65.0</td>
+                                            <td>Oregon</td>
+                                            <td>Willamette Valley</td>
+                                            <td>Willamette Valley</td>
+                                            <td>Paul Gregutt</td>
+                                            <td>@paulgwine</td>
+                                            <td>Sweet Cheeks 2012 Vintner's Reserve Wild Child...</td>
+                                            <td>Pinot Noir</td>
+                                            <td>Sweet Cheeks</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>Spain</td>
+                                            <td>Blackberry and raspberry aromas show a typical...</td>
+                                            <td>Ars In Vitro</td>
+                                            <td>87</td>
+                                            <td>15.0</td>
+                                            <td>Northern Spain</td>
+                                            <td>Navarra</td>
+                                            <td>NaN</td>
+                                            <td>Michael Schachner</td>
+                                            <td>@wineschach</td>
+                                            <td>Tandem 2011 Ars In Vitro Tempranillo-Merlot (N...</td>
+                                            <td>Tempranillo-Merlot</td>
+                                            <td>Tandem</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>Italy</td>
+                                            <td>Here's a bright, informal red that opens with ...</td>
+                                            <td>Belsito</td>
+                                            <td>87</td>
+                                            <td>16.0</td>
+                                            <td>Sicily &amp; Sardinia</td>
+                                            <td>Vittoria</td>
+                                            <td>NaN</td>
+                                            <td>Kerin O�Keefe</td>
+                                            <td>@kerinokeefe</td>
+                                            <td>Terre di Giurfo 2013 Belsito Frappato (Vittoria)</td>
+                                            <td>Frappato</td>
+                                            <td>Terre di Giurfo</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>France</td>
+                                            <td>This dry and restrained wine offers spice in p...</td>
+                                            <td>NaN</td>
+                                            <td>87</td>
+                                            <td>24.0</td>
+                                            <td>Alsace</td>
+                                            <td>Alsace</td>
+                                            <td>NaN</td>
+                                            <td>Roger Voss</td>
+                                            <td>@vossroger</td>
+                                            <td>Trimbach 2012 Gewurztraminer (Alsace)</td>
+                                            <td>Gew�rztraminer</td>
+                                            <td>Trimbach</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>Germany</td>
+                                            <td>Savory dried thyme notes accent sunnier flavor...</td>
+                                            <td>Shine</td>
+                                            <td>87</td>
+                                            <td>12.0</td>
+                                            <td>Rheinhessen</td>
+                                            <td>NaN</td>
+                                            <td>NaN</td>
+                                            <td>Anna Lee C. Iijima</td>
+                                            <td>NaN</td>
+                                            <td>Heinz Eifel 2013 Shine Gew�rztraminer (Rheinhe...</td>
+                                            <td>Gew�rztraminer</td>
+                                            <td>Heinz Eifel</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>France</td>
+                                            <td>This has great depth of flavor with its fresh ...</td>
+                                            <td>Les Natures</td>
+                                            <td>87</td>
+                                            <td>27.0</td>
+                                            <td>Alsace</td>
+                                            <td>Alsace</td>
+                                            <td>NaN</td>
+                                            <td>Roger Voss</td>
+                                            <td>@vossroger</td>
+                                            <td>Jean-Baptiste Adam 2012 Les Natures Pinot Gris...</td>
+                                            <td>Pinot Gris</td>
+                                            <td>Jean-Baptiste Adam</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>US</td>
+                                            <td>Soft, supple plum envelopes an oaky structure ...</td>
+                                            <td>Mountain Cuv�e</td>
+                                            <td>87</td>
+                                            <td>19.0</td>
+                                            <td>California</td>
+                                            <td>Napa Valley</td>
+                                            <td>Napa</td>
+                                            <td>Virginie Boone</td>
+                                            <td>@vboone</td>
+                                            <td>Kirkland Signature 2011 Mountain Cuv�e Caberne...</td>
+                                            <td>Cabernet Sauvignon</td>
+                                            <td>Kirkland Signature</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>France</td>
+                                            <td>This is a dry wine, very spicy, with a tight, ...</td>
+                                            <td>NaN</td>
+                                            <td>87</td>
+                                            <td>30.0</td>
+                                            <td>Alsace</td>
+                                            <td>Alsace</td>
+                                            <td>NaN</td>
+                                            <td>Roger Voss</td>
+                                            <td>@vossroger</td>
+                                            <td>Leon Beyer 2012 Gewurztraminer (Alsace)</td>
+                                            <td>Gew�rztraminer</td>
+                                            <td>Leon Beyer</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            >
+                                            <td>US</td>
+                                            <td>Slightly reduced, this wine offers a chalky, t...</td>
+                                            <td>NaN</td>
+                                            <td>87</td>
+                                            <td>34.0</td>
+                                            <td>California</td>
+                                            <td>Alexander Valley</td>
+                                            <td>Sonoma</td>
+                                            <td>Virginie Boone</td>
+                                            <td>@vboone</td>
+                                            <td>Louis M. Martini 2012 Cabernet Sauvignon (Alex...</td>
+                                            <td>Cabernet Sauvignon</td>
+                                            <td>Louis M. Martini</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>US</td>
+                                            <td>Building on 150 years and six generations of w...</td>
+                                            <td>NaN</td>
+                                            <td>87</td>
+                                            <td>12.0</td>
+                                            <td>California</td>
+                                            <td>Central Coast</td>
+                                            <td>Central Coast</td>
+                                            <td>Matt Kettmann</td>
+                                            <td>@mattkettmann</td>
+                                            <td>Mirassou 2012 Chardonnay (Central Coast)</td>
+                                            <td>Chardonnay</td>
+                                            <td>Mirassou</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>Germany</td>
+                                            <td>Zesty orange peels and apple notes abound in t...</td>
+                                            <td>Devon</td>
+                                            <td>87</td>
+                                            <td>24.0</td>
+                                            <td>Mosel</td>
+                                            <td>NaN</td>
+                                            <td>NaN</td>
+                                            <td>Anna Lee C. Iijima</td>
+                                            <td>NaN</td>
+                                            <td>Richard B�cking 2013 Devon Riesling (Mosel)</td>
+                                            <td>Riesling</td>
+                                            <td>Richard B�cking</td>
+                                          </tr>
+                                          <tr>
+                                            
+                                            
+                                            <td>Argentina</td>
+                                            <td>Baked plum, molasses, balsamic vinegar and che...</td>
+                                            <td>Felix</td>
+                                            <td>87</td>
+                                            <td>30.0</td>
+                                            <td>Other</td>
+                                            <td>Cafayate</td>
+                                            <td>NaN</td>
+                                            <td>Michael Schachner</td>
+                                            <td>@wineschach</td>
+                                            <td>Felix Lavaque 2010 Felix Malbec (Cafayate)</td>
+                                            <td>Malbec</td>
+                                            <td>Felix Lavaque</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+                                      </div>
+
+
+                                      <footer>
+                                          <br><p style="text-align: center">
+                                            <i class="glyphicon glyphicon-copyright-mark">Copyright Erin Ford 2018</i>
+                                            </p>
+                                          </footer>
       
         
 </body>
